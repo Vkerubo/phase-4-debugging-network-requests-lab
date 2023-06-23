@@ -70,8 +70,10 @@ developing your own process.
 
   - How I debugged:
   - Check error on the console
-  - Add route in the routes.rb file in the config folder.
+  - update fetch
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  - Check error on the console
+  - Add route in the routes.rb file in the config folder.
