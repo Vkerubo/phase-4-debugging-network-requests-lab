@@ -63,6 +63,8 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  - Check the error on the server logs
+  - Server log Development file indicates which action is generating the error
 
 - Update the number of likes for a toy
 
