@@ -13,7 +13,10 @@ class ToysController < ApplicationController
 
   def update
     toy = Toy.find_by(id: params[:id])
-    toy.update(toy_params)
+    if toy.update(toy_params)
+    else
+      render json: {error: "Toy not found"}, status: :not_found
+    end
   end
 
   def destroy
@@ -25,7 +28,7 @@ class ToysController < ApplicationController
   private
 
   def toy_params
-    params.permit(:name, :image, :likes)
+    params.permit(:id, :name, :image, :likes)
   end
 
 end
