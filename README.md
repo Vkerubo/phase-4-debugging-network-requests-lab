@@ -69,6 +69,8 @@ developing your own process.
 - Update the number of likes for a toy
 
   - How I debugged:
+  - Check error on the console
+  - Add route in the routes.rb file in the config folder.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
